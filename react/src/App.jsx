@@ -15,11 +15,13 @@ function App() {
   }, []);
 
   return (
-    <ErrorBoundary>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </ErrorBoundary>
+    <div data-easytag="id0-src/App.jsx">
+      <ErrorBoundary>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </ErrorBoundary>
+    </div>
   );
 }
 
